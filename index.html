@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- home design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>M Karthik</h1>
+            <h3>And I'm a <span>Front End Developer</span></h3>
+            <p>Passionate about building user-friendly applications and eager to contribute to innovative projects while
+                growing in a dynamic development environment.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="./karthikupdate.pdf" class="btn" download>Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="./myimage.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./myimage.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>A Front-End Developer specializes in creating user-friendly, responsive web interfaces using HTML, CSS,
+                and JavaScript. They translate design mockups into functional web pages, ensuring cross-browser
+                compatibility and optimal performance. Proficient in modern frameworks like React or Angular, they
+                collaborate with designers and back-end developers to deliver seamless user experiences. Strong
+                debugging, responsive design, and accessibility skills are key aspects of their role. They stay updated
+                on emerging technologies to create innovative, scalable solutions.
+            </p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!-- service section -->
+
+    <section class="service" id="service">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="service-content">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Web development involves designing, building, and maintaining websites and web applications.It
+                    use programming languages like HTML, CSS, JavaScript, and frameworks to create
+                    responsive websites</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+                <p>Java is a versatile, object-oriented programming language widely used for building secure, scalable
+                    applications.Java offers robust libraries, frameworks like spring boot and tools for efficient
+                    coding.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL</h3>
+                <p>MySQL is a popular, open-source relational database management system (RDBMS) used to store,
+                    organize, and retrieve data efficiently.It supports structured query language for managing
+                    databases.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-content">
+            <div class="portfolio-box">
+                <img src="./javaimg.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Book Store-Java</h4>
+                    <p>A Book Store Application using Spring Boot is a robust and scalable solution for managing book
+                        inventory It integrates seamlessly with a relational database like MySQL .</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./htmlimg.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio-Web Design</h4>
+                    <p>Web design focuses on creating visually appealing and user-friendly layouts for websitesIt
+                        involves designing the structure, aesthetics, and interactive elements using tools or coding
+                        with HTML and CSS. .</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+
+            <div class="portfolio-box">
+                <img src="./sqlimg.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>MySQL</h4>
+                    <p>A MySQL Project involves designing and managing a relational database to store, organize, and
+                        retrieve data efficiently. It includes creating structured tables, defining relationships, and
+                        using SQL queries for data manipulation and analysis.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+     <div class="container">
+
+    <section class="contact" id="contact">
+
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    </div>
+
+
+    <script>
+        const contactform = document.querySelector('.contact');
+const container = document.querySelector('.container');
+
+contactform.addEventListener('submit', (event) => {
+	event.preventDefault();
+	contactform.innerHTML = '<h1 style="font-size:50px">Thanks for your message. <br /> I\'ll respond to you shortly</h1>';
+});
+    </script>
+</body>
+
+</html>
